@@ -1,0 +1,56 @@
+@import "style-header.css";
+
+
+
+html {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #85a9ce;
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #ebebeb;
+  padding: 0 0 20px 0;
+}
+
+/* || Image Container */
+h1 {
+  font-size: 4vw;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+/* || Other */
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
